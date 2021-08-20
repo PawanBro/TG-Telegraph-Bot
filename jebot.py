@@ -65,7 +65,7 @@ async def about(client, message):
 <b>♞ Developer:</b> <a href="https://t.me/ImTheekshana">Theekshana</a>
 <b>♞ Support:</b> <a href="https://t.me/Theekshana_Support">Theekshana BOTs Support Support</a>
 <b>♞ Library:</b> <a href="https://github.com/pyrogram/pyrogram">Pyrogram</a>
-<b>@Infinity_BOTs</b>""",
+<b>@Theekshana_Official</b>""",
      reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
