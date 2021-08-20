@@ -25,10 +25,10 @@ Hit help button to find out more about how to use me</b>""",
                                         InlineKeyboardButton(
                                             "Help", callback_data="help"),
                                         InlineKeyboardButton(
-                                            "Channel", url="https://t.me/Infinity_BOTs")
+                                            "Channel", url="https://t.me/Theekshana_Official")
                                     ],[
                                       InlineKeyboardButton(
-                                            "Source Code", url="https://github.com/ImJanindu/JETelegraphBot")
+                                            "Source Code", url="https://github.com/PawanBro/TG-Telegraph-Bot")
                                     ]]
                             ),        
             disable_web_page_preview=True,        
@@ -50,7 +50,7 @@ Just send a photo or video less than 5mb file size, I'll upload it to telegraph.
                                             "About", callback_data="about"),
                                   ],[
                                         InlineKeyboardButton(
-                                            "Source Code", url="https://github.com/ImJanindu/JETelegraphBot")
+                                            "Source Code", url="https://github.com/PawanBro/TG-Telegraph-Bot")
                                     ]]
                             ),        
             disable_web_page_preview=True,        
@@ -62,8 +62,8 @@ async def about(client, message):
         await Jebot.send_message(
                chat_id=message.chat.id,
                text="""<b>About Telegraph Bot!</b>
-<b>♞ Developer:</b> <a href="https://t.me/ImJanindu">Janindu 🇱🇰</a>
-<b>♞ Support:</b> <a href="https://t.me/InfinityBOTs_Support">Infinity BOTs Support</a>
+<b>♞ Developer:</b> <a href="https://t.me/ImTheekshana">Theekshana</a>
+<b>♞ Support:</b> <a href="https://t.me/Theekshana_Support">Theekshana BOTs Support Support</a>
 <b>♞ Library:</b> <a href="https://github.com/pyrogram/pyrogram">Pyrogram</a>
 <b>@Infinity_BOTs</b>""",
      reply_markup=InlineKeyboardMarkup(
@@ -71,7 +71,7 @@ async def about(client, message):
                                         InlineKeyboardButton(
                                             "Back", callback_data="help"),
                                         InlineKeyboardButton(
-                                            "Source Code", url="https://github.com/ImJanindu/JETelegraphBot")
+                                            "Source Code", url="https://github.com/PawanBro/TG-Telegraph-Bot")
                                     ]]
                             ),        
             disable_web_page_preview=True,        
@@ -87,7 +87,7 @@ async def telegraphphoto(client, message):
     except:
         await msg.edit_text("Photo size should be less than 5mb!") 
     else:
-        await msg.edit_text(f'**Uploaded To Telegraph!\n\n👉 https://telegra.ph{response[0]}\n\nJoin @JEBotZ**',
+        await msg.edit_text(f'**Uploaded To Telegraph!\n\n👉 https://telegra.ph{response[0]}\n\nJoin @Theekshana_Official**',
             disable_web_page_preview=True,
         )
     finally:
@@ -103,7 +103,7 @@ async def telegraphvid(client, message):
     except:
         await msg.edit_text("Video size should be less than 5mb!") 
     else:
-        await msg.edit_text(f'**Uploaded To Telegraph!\n\n👉 https://telegra.ph{response[0]}\n\nJoin @JEBotZ**',
+        await msg.edit_text(f'**Uploaded To Telegraph!\n\n👉 https://telegra.ph{response[0]}\n\nJoin @JTheekshana_Official**',
             disable_web_page_preview=True,
         )
     finally:
@@ -119,7 +119,7 @@ async def telegraphgif(client, message):
     except:
         await msg.edit_text("Gif size should be less than 5mb!") 
     else:
-        await msg.edit_text(f'**Uploaded To Telegraph!\n\n👉 https://telegra.ph{response[0]}\n\nJoin @JEBotZ**',
+        await msg.edit_text(f'**Uploaded To Telegraph!\n\n👉 https://telegra.ph{response[0]}\n\nJoin @Theekshana_Official**',
             disable_web_page_preview=True,
         )
     finally:
@@ -141,7 +141,7 @@ async def button(bot, update):
 print(
     """
 Bot Started!
-Join @Infinity_BOTs
+Join @Theekshana_Official
 """
 )
 
